@@ -10,7 +10,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   Flame.device.setPortrait();
   runApp(InheritedVirtualPetGameWrapper(
-    virtualPetGame: VirtualPetGame(), 
+    virtualPetGame: VirtualPetGame(),
     child: const VirtalPetApp()
   ));
 }
@@ -27,3 +27,4 @@ class VirtalPetApp extends StatelessWidget {
     );
   }
 }
+

@@ -10,10 +10,10 @@ class TaskComplete extends StatelessWidget {
 
   Widget taskCompletePOP(BuildContext context) {
     return AlertDialog(
-      title: Column(
+      title: const Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: const <Widget>[
+        children: <Widget>[
           Text("You Did It!",
               style: TextStyle(
                   fontStyle: FontStyle.normal, fontWeight: FontWeight.bold)),
@@ -21,10 +21,10 @@ class TaskComplete extends StatelessWidget {
       ),
       alignment: Alignment.center,
       ////%
-      content: Column(
+      content: const Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: const <Widget>[
+        children: <Widget>[
           Text("You have earned 10 coins!",
               style: TextStyle(fontStyle: FontStyle.italic)),
           Text("But wait! To earn your coins, check in",

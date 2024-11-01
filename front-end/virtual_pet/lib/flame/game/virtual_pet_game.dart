@@ -13,7 +13,7 @@ class VirtualPetGame extends FlameGame {
   final VirtualPetData virtualPetData = VirtualPetData();
 
   @override
-  Color backgroundColor() => themeData.backgroundColor;
+  Color backgroundColor() => themeData.colorScheme.surface;
 
   @override
   Future<void> onLoad() async {
